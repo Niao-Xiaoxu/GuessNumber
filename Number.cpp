@@ -6,7 +6,7 @@
 using namespace std;
 
 // 全局变量
-int num, in = -1, max_ = 100, min_ = 0, c = 0;
+int num, in = -1, max_ = 100, min_ = 0, c = 1;
 string in2;
 
 // 函数声明
@@ -32,12 +32,12 @@ void initGame()
     in = -1;
     max_ = 100;
     min_ = 0;
-    c = 0; // 尝试次数重置为0
+    c = 1; // 尝试次数重置为0
 }
 void playGame()
 {
     system("cls");
-    cout << "猜数字小游戏 V1.0.2[ZH-Hans]" << endl;
+    cout << "猜数字小游戏 V1.0.3[ZH-Hans]" << endl;
     cout << "Made By YuNiao." << endl;
     while (num != in)
     {
